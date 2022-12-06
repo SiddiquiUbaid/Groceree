@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".view.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_login_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_hint"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        />
+
+
+    <EditText
+        android:id="@+id/et_mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:hint="@string/enter_phone_hint"
+        />
+
+    <EditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:hint="@string/enter_otp_hint"
+        />
+
+        <Button
+            android:id="@+id/btn_generate_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:text="send OTP"
+            android:textSize="20sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Login"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_ask_for_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/ask_for_signup"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:background="@color/dark_green"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/content_frame_for_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearSearchBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_round_searchbar"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                >
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="5dp"
+
+
+                    android:background="@drawable/shape_round_searchbar"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/btnCloseSearch"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+
+                        />
+
+
+
+
+
+                    <EditText
+                        android:id="@+id/etSearchText"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+
+                        android:textCursorDrawable="@drawable/dark_gree_cursor"
+                        android:paddingHorizontal="@dimen/_7sdp"
+
+
+                        android:background="@android:color/transparent"
+                        android:hint="Search Groceries"
+                        android:textSize="@dimen/_14ssp"
+
+                        android:textColorHint="#686C69" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnSearchIcon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+
+                    android:layout_gravity="center"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_products_item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        android:id="@+id/nv">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+    <!--    <ListView-->
+<!--        android:id="@+id/left_drawer"-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="#FFFFFF"-->
+<!--        android:choiceMode="singleChoice"-->
+<!--        android:divider="@android:color/darker_gray"-->
+<!--        android:dividerHeight="1dp" />-->
+
+</androidx.drawerlayout.widget.DrawerLayout>

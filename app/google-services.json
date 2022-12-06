@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "485343234064",
+    "firebase_url": "https://final-test-project-9af03-default-rtdb.firebaseio.com",
+    "project_id": "final-test-project-9af03",
+    "storage_bucket": "final-test-project-9af03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485343234064:android:b09f536a3fa04df658a295",
+        "android_client_info": {
+          "package_name": "com.example.groceree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485343234064-gtoiu0f1e4hqm5iq05gde89h7irutik9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.groceree",
+            "certificate_hash": "776afae52c6bfd2c56d718fb641e9810c00cd762"
+          }
+        },
+        {
+          "client_id": "485343234064-2g6vn2i0m08qu3skmrro531ucv8m4tbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFEf3N6vvUCJ3OUW26IQbTQDXOhDwagE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485343234064-2g6vn2i0m08qu3skmrro531ucv8m4tbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485343234064:android:c86c1f18df9a8a3b58a295",
+        "android_client_info": {
+          "package_name": "com.example.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485343234064-2g6vn2i0m08qu3skmrro531ucv8m4tbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFEf3N6vvUCJ3OUW26IQbTQDXOhDwagE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485343234064-2g6vn2i0m08qu3skmrro531ucv8m4tbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

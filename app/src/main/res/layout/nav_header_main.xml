@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_100sdp"
+    android:background="@drawable/shape_round_searchbar"
+    android:padding="@dimen/_5sdp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:gravity="top">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="16dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cv_nave_profile_image"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher_foreground"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cv_nave_profile_image"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_nav_name"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:textColor="#ffffff"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:text="new profile"
+                android:paddingBottom="5dp"
+                android:textSize="@dimen/_20ssp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:typeface="sans"
+            android:textColor="#ffffff"
+            android:id="@+id/tv_nav_phone"
+            android:layout_alignParentLeft="true"
+            android:text="0370077315"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
