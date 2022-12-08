@@ -3,10 +3,13 @@
 
     <item android:id="@+id/account"
         android:icon="@drawable/ic_baseline_logout_24"
-        android:title="My Account"/>
+        android:title="My Account"
+        />
+
     <item android:id="@+id/settings"
         android:icon="@drawable/ic_baseline_phone_24"
         android:title="Settings"/>
+
     <item android:id="@+id/mycart"
         android:icon="@drawable/ic_baseline_shopping_cart_24"
         android:title="My Cart"/>

@@ -129,7 +129,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
                 // fetching image from firebase
                 Glide.with(getApplicationContext()).load(user.getProfilePic()).placeholder(R.mipmap.ic_launcher).into( (ivProfilepic) );
-                Toast.makeText(getApplicationContext(), "Hello " + user.getFullName() + " !", Toast.LENGTH_SHORT).show();
 
             }
 
